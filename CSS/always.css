@@ -1,0 +1,36 @@
+/*********** external fonts ***********/
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*********** components css ***********/
+@import url("./reset.css");
+@import url("./variable.css");
+@import url("./utility.css");
+@import url('./typography.css');
+@import url("./Components/Alert/alert.css");
+@import url("./Components/Avatar/avatar.css");
+@import url("./Components/Badge/badge.css");
+@import url("./Components/Button/button.css");
+@import url("./Components/Card/card.css");
+@import url("./Components/Image/image.css");
+@import url("./Components/Input/input.css");
+@import url("./Components//Grid/grid.css");
+
+*{
+    background-color: var(--primary-bg);
+    color: var(--primary-text);
+}
+
+.separator{
+    opacity: 0.6;
+    border: 0 solid var(--secondary-color);
+    border-bottom-width: 1px;
+    width: 100%;
+}
+
+.center-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

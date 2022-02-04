@@ -1,0 +1,63 @@
+header{
+    height: 10vh;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.header-brand > a{
+    font-family: 'Marck Script', cursive;
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.container{
+    height: 85vh;
+}
+
+/* sidebar */
+.sidebar{
+   overflow-y: scroll;
+   font-size: 1.1rem;
+}
+
+.sidebar-item:hover{
+    background-color: var(--primary-color);
+}
+
+.list-no-bullet{
+    list-style: none;
+}
+
+/* main */
+
+main{
+    overflow-y: scroll;
+}
+
+.examples{
+    border: 1px solid var(--secondary-color);
+    width: 700px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.examples-inline{
+    border: 1px solid var(--secondary-color);
+    width: 700px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.code{
+    width: 700px;
+}
+
+.code-snippet > iframe {
+	width: 100%;
+	height: 100%;
+	max-width: 95rem;
+}
