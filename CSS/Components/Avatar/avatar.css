@@ -1,0 +1,30 @@
+.avatar {
+  border-radius: 50%;
+}
+
+.avatar-lg {
+  width: 9rem;
+  height: 9rem;
+  font-size: 2em;
+}
+
+.avatar-md {
+  width: 7rem;
+  height: 7rem;
+  font-size: 1.5em;
+}
+
+.avatar-sm {
+  width: 5rem;
+  height: 5rem;
+  font-size: 1em;
+}
+
+.avatar-txt {
+  background-color: var(--primary-color);
+  color: var(--primary-text);
+}
+
+span {
+  background-color: inherit;
+}
