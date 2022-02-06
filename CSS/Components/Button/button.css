@@ -21,3 +21,63 @@
 .btn-secondary {
   background-color: var(--secondary-color);
 }
+
+.btn-success {
+  background-color: var(--success);
+}
+
+.btn-danger {
+  background-color: var(--danger);
+}
+
+.btn-warning {
+  color: var(--secondary-color);
+  background-color: var(--warning);
+}
+
+.btn-info {
+  color: var(--secondary-color);
+  background-color: var(--info);
+}
+
+/* outline button */
+
+.btn-outline-primary {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.btn-outline-secondary {
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+}
+
+.btn-outline-success {
+  color: var(--success);
+  border: 1px solid var(--success);
+}
+
+.btn-outline-danger {
+  color: var(--danger);
+  border: 1px solid var(--danger);
+}
+
+.btn-outline-warning {
+  color: var(--warning);
+  border: 1px solid var(--warning);
+}
+
+.btn-outline-info {
+  color: var(--info);
+  border: 1px solid var(--info);
+}
+
+.btn-outline-secondary:hover {
+  border: 1px solid var(--secondary-color);
+}
+
+/* button hover */
+
+.btn:hover{
+  opacity: 0.8;
+}
