@@ -31,12 +31,12 @@
 }
 
 .btn-warning {
-  color: #000;
+  color: var(--secondary-color);
   background-color: var(--warning);
 }
 
 .btn-info {
-  color: #000;
+  color: var(--secondary-color);
   background-color: var(--info);
 }
 

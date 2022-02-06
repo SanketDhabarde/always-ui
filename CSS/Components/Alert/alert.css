@@ -47,21 +47,21 @@
 }
 
 .alert-success-icon {
-  color: #d1e7dd;
+  color: var(--success-text);
   padding: 0 0.5rem;
 }
 
 .alert-danger-icon {
-  color: #f8d7da;
+  color: var(--danger-color);
   padding: 0 0.5rem;
 }
 
 .alert-info-icon {
-  color: #cff4fc;
+  color: var(--info-text);
   padding: 0 0.5rem;
 }
 
 .alert-warning-icon {
-  color: #fff3cd;
+  color: var(--warning-text);
   padding: 0 0.5rem;
 }
