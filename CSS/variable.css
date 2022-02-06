@@ -8,4 +8,8 @@
     --danger: #dc3545;
     --warning: #ffc107;
     --info: #0dcaf0;
+    --success-text: #d1e7dd;
+    --danger-text: #f8d7da;
+    --warning-text: #fff3cd;
+    --info-text: #cff4fc;
 }

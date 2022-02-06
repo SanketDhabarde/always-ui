@@ -21,3 +21,73 @@
 .btn-secondary {
   background-color: var(--secondary-color);
 }
+
+.btn-success {
+  background-color: var(--success);
+}
+
+.btn-danger {
+  background-color: var(--danger);
+}
+
+.btn-warning {
+  color: #000;
+  background-color: var(--warning);
+}
+
+.btn-info {
+  color: #000;
+  background-color: var(--info);
+}
+
+.btn-outline-primary {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.btn-outline-secondary {
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+}
+
+.btn-outline-success {
+  color: var(--success);
+  border: 1px solid var(--success);
+}
+
+.btn-outline-danger {
+  color: var(--danger);
+  border: 1px solid var(--danger);
+}
+
+.btn-outline-warning {
+  color: var(--warning);
+  border: 1px solid var(--warning);
+}
+
+.btn-outline-info {
+  color: var(--info);
+  border: 1px solid var(--info);
+}
+
+.btn-outline-secondary:hover {
+  border: 1px solid var(--secondary-color);
+}
+
+.btn-primary:hover,
+.btn-secondary:hover,
+.btn-success:hover,
+.btn-danger:hover,
+.btn-info:hover,
+.btn-warning:hover {
+  opacity: 0.8;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-secondary:hover,
+.btn-outline-success:hover,
+.btn-outline-danger:hover,
+.btn-outline-info:hover,
+.btn-outline-warning:hover {
+  opacity: 0.9;
+}
