@@ -40,6 +40,8 @@
   background-color: var(--info);
 }
 
+/* outline button */
+
 .btn-outline-primary {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
@@ -74,20 +76,8 @@
   border: 1px solid var(--secondary-color);
 }
 
-.btn-primary:hover,
-.btn-secondary:hover,
-.btn-success:hover,
-.btn-danger:hover,
-.btn-info:hover,
-.btn-warning:hover {
-  opacity: 0.8;
-}
+/* button hover */
 
-.btn-outline-primary:hover,
-.btn-outline-secondary:hover,
-.btn-outline-success:hover,
-.btn-outline-danger:hover,
-.btn-outline-info:hover,
-.btn-outline-warning:hover {
-  opacity: 0.9;
+.btn:hover{
+  opacity: 0.8;
 }
