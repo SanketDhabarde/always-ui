@@ -1,0 +1,46 @@
+.badge-parent {
+  position: relative;
+}
+
+.badge {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 8%;
+  right: 8%;
+}
+
+.badge-available {
+  background-color: var(--success);
+}
+
+.badge-busy {
+  background-color: var(--danger);
+}
+
+.badge-offline {
+  background-color: var(--secondary-text);
+}
+
+/* badge on icons */
+
+.badge-icon-wrapper {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  position: relative;
+}
+
+.badge-icon {
+  position: absolute;
+  top: 0;
+  right: -10%;
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
