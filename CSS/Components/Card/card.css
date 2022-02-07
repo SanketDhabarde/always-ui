@@ -67,3 +67,9 @@
     left: 0;
     border-top-right-radius: 5px;
 }
+
+/* horizontal card */
+.horizontal-card-img{
+    height: 20vh;
+    border-top-left-radius: 5px;
+}
