@@ -1,0 +1,17 @@
+.input-container{
+    width: 40vw;
+}
+
+.input-textbox{
+    background: transparent;
+    color: var(--primary-text);
+    border: 1px solid var(--secondary-color);
+    width: 80%;
+    height: 5vh;
+    border-radius: 5px;
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid var(--primary-color);
+}
