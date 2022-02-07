@@ -8,3 +8,8 @@
   border-radius: 50%;
   object-fit: cover;
 }
+
+.img {
+  width: 10rem;
+  height: 10rem;
+}
