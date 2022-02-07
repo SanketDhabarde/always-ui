@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,8 +11,12 @@
     <link rel="stylesheet" href="../../always.css">
     <link rel="stylesheet" href="../../documentation.css">
 
+    <!-- stylesheet specific to file -->
+    <link rel="stylesheet" href="./card.css">
+
     <title>Always | Card</title>
 </head>
+
 <body>
     <header class="p-3">
         <div class="header-brand">
@@ -46,12 +51,205 @@
                 <a href="../Input/input.html" class="btn-link">Input</a>
             </li>
         </aside>
-        <main>
-    
+        <main class="p-3">
+            <section>
+                <div class="header">
+                    <h1>Card</h1>
+                </div>
+            </section>
+            <!--Card with badge -->
+            <section class="mt-2">
+                <h3 class="my-2">Card with Badge</h3>
+                <div class="examples-inline p-1 m-1 center-div">
+                    <div class="card m-1">
+                        <div class="card-section">
+                            <img class="card-img img-responsive" src="https://picsum.photos/200/300" alt="card img" />
+                            <span class="card-badge p-1">New</span>
+                            <div class="card-header p-1">
+                                <h3>Our Changing Planet</h3>
+                                <p class="author-name">by Kurt Wagner</p>
+                            </div>
+                        </div>
+                        <div class="card-footer p-1">
+                            <a class="p-1">READ</a>
+                            <a class="p-1">BOOKMARK</a>
+                            <i class="far fa-heart p-1"></i>
+                            <i class="fas fa-share-alt p-1"></i>
+                            <i class="fas fa-ellipsis-v p-1"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="mt-2 p-1 code-snippet">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2853%2C67%2C95%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520m-1%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-section%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2520img-responsive%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F200%252F300%2522%2520alt%253D%2522card%2520img%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-badge%2520p-1%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2520p-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EOur%2520Changing%2520Planet%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522author-name%2522%253Eby%2520Kurt%2520Wagner%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer%2520p-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522p-1%2522%253EREAD%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522p-1%2522%253EBOOKMARK%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2520p-1%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2520p-1%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2520p-1%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 100%; height: 486px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </section>
+            <!--Card with Dismiss -->
+            <section class="mt-2">
+                <h3 class="my-2">Card with Dismiss</h3>
+                <div class="examples-inline p-1 m-1 center-div">
+                    <div class="card m-1">
+                        <div class="card-section">
+                            <img class="card-img img-responsive" src="https://picsum.photos/200/300" alt="card img" />
+                            <span class="card-dismiss p-1">
+                                <i class="far fa-times-circle"></i>
+                            </span>
+                            <div class="card-header p-1">
+                                <h3>Our Changing Planet</h3>
+                                <p class="author-name">by Kurt Wagner</p>
+                            </div>
+                        </div>
+                        <div class="card-footer p-1">
+                            <a class="p-1">READ</a>
+                            <a class="p-1">BOOKMARK</a>
+                            <i class="far fa-heart p-1"></i>
+                            <i class="fas fa-share-alt p-1"></i>
+                            <i class="fas fa-ellipsis-v p-1"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="mt-2 p-1 code-snippet">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2853%2C67%2C95%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520m-1%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-section%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2520img-responsive%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F200%252F300%2522%2520alt%253D%2522card%2520img%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-dismiss%2520p-1%2522%253E%250A%2520%2520%2520%2520%2509%2509%253Ci%2520class%253D%2522far%2520fa-times-circle%2522%253E%253C%252Fi%253E%250A%2509%2509%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2520p-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EOur%2520Changing%2520Planet%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522author-name%2522%253Eby%2520Kurt%2520Wagner%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer%2520p-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522p-1%2522%253EREAD%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522p-1%2522%253EBOOKMARK%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2520p-1%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2520p-1%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2520p-1%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 100%; height: 523px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </section>
+
+            <!--Card with Text overlay -->
+            <section class="mt-2">
+                <h3 class="my-2">Card with text overlay</h3>
+                <div class="examples-inline p-1 m-1 center-div">
+                    <div class="card m-1">
+                        <div class="card-section">
+                            <img class="card-img img-responsive" src="https://picsum.photos/200/300?grayscale"
+                                alt="card img" />
+                            <div class="card-header card-text-overlay p-1">
+                                <h3 class="card-heading">Our Changing Planet</h3>
+                                <p class="card-author">by Kurt Wagner</p>
+                            </div>
+                        </div>
+                        <div class="card-footer p-1">
+                            <a class="p-1">READ</a>
+                            <a class="p-1">BOOKMARK</a>
+                            <i class="far fa-heart p-1"></i>
+                            <i class="fas fa-share-alt p-1"></i>
+                            <i class="fas fa-ellipsis-v p-1"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="mt-2 p-1 code-snippet">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2853%2C67%2C95%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520m-1%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-section%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2520img-responsive%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F200%252F300%253Fgrayscale%2522%2520alt%253D%2522card%2520img%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2520card-text-overlay%2520p-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-heading%2522%253EOur%2520Changing%2520Planet%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-author%2522%253Eby%2520Kurt%2520Wagner%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer%2520p-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522p-1%2522%253EREAD%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522p-1%2522%253EBOOKMARK%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2520p-1%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2520p-1%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2520p-1%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 100%; height: 486px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </section>
+
+            <!--Card with Text Only -->
+            <section class="mt-2">
+                <h3 class="my-2">Text only card</h3>
+                <div class="examples-inline p-1 m-1 center-div">
+                    <div class="card m-1">
+                        <div class="card-section">
+                            <div class="card-header p-1">
+                                <h3 class="card-heading">Our Changing Planet</h3>
+                                <p class="author-name">by Kurt Wagner</p>
+                            </div>
+                            <div class="card-disc p-1">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid necessitatibus,
+                                    maxime fuga quas esse molestias odit quaerat ipsa aperiam est nulla neque, eum
+                                    ratione? Mollitia voluptate dignissimos magnam eos error?</p>
+                            </div>
+                        </div>
+                        <div class="card-footer p-1">
+                            <a class="p-1">READ</a>
+                            <a class="p-1">BOOKMARK</a>
+                            <i class="far fa-heart p-1"></i>
+                            <i class="fas fa-share-alt p-1"></i>
+                            <i class="fas fa-ellipsis-v p-1"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="mt-2 p-1 code-snippet">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2853%2C67%2C95%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520m-1%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-section%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2520p-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-heading%2522%253EOur%2520Changing%2520Planet%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522author-name%2522%253Eby%2520Kurt%2520Wagner%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-disc%2520p-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ELorem%2520ipsum%2520dolor%252C%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Aliquid%2520necessitatibus%252C%2520maxime%2520fuga%2520quas%2520esse%2520molestias%2520odit%2520quaerat%2520ipsa%2520aperiam%2520est%2520nulla%2520neque%252C%2520eum%2520ratione%253F%2520Mollitia%2520voluptate%2520dignissimos%2520magnam%2520eos%2520error%253F%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer%2520p-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522p-1%2522%253EREAD%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522p-1%2522%253EBOOKMARK%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2520p-1%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2520p-1%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2520p-1%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 100%; height: 542px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </section>
+
+            <!--Horizontal card -->
+            <section class="mt-2">
+                <h3 class="my-2">Horizontal Card</h3>
+                <div class="examples-inline p-1 m-1 center-div">
+                    <div class="card m-1">
+                        <div class="card-section grid-2-col">
+                            <img class="card-img horizontal-card-img img-responsive" src="https://picsum.photos/200/300"
+                                alt="card img" />
+                            <div class="card-header p-2">
+                                <h3>Our Changing Planet</h3>
+                                <p class="author-name">by Kurt Wagner</p>
+                            </div>
+                        </div>
+                        <div class="card-footer p-1">
+                            <a class="p-1">READ</a>
+                            <a class="p-1">BOOKMARK</a>
+                            <i class="far fa-heart p-1"></i>
+                            <i class="fas fa-share-alt p-1"></i>
+                            <i class="fas fa-ellipsis-v p-1"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="mt-2 p-1 code-snippet">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2853%2C67%2C95%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520m-1%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-section%2520grid-2-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2520horizontal-card-img%2520img-responsive%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F200%252F300%2522%2520alt%253D%2522card%2520img%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2520p-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EOur%2520Changing%2520Planet%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522author-name%2522%253Eby%2520Kurt%2520Wagner%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer%2520p-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522p-1%2522%253EREAD%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522p-1%2522%253EBOOKMARK%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2520p-1%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2520p-1%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2520p-1%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 100%; height: 486px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </section>
+
+            <!--Card with shadow -->
+            <section class="mt-2">
+                <h3 class="my-2">Card with shadow</h3>
+                <div class="examples-inline p-1 m-1 center-div">
+                    <div class="card card-shadow m-1">
+                        <div class="card-section ">
+                            <img class="card-img img-responsive" src="https://picsum.photos/200/300" alt="card img" />
+                            <div class="card-header p-2">
+                                <h3>Our Changing Planet</h3>
+                                <p class="author-name">by Kurt Wagner</p>
+                            </div>
+                        </div>
+                        <div class="card-footer p-1">
+                            <a class="p-1">READ</a>
+                            <a class="p-1">BOOKMARK</a>
+                            <i class="far fa-heart p-1"></i>
+                            <i class="fas fa-share-alt p-1"></i>
+                            <i class="fas fa-ellipsis-v p-1"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="mt-2 p-1 code-snippet">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2853%2C67%2C95%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-shadow%2520m-1%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-section%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2520img-responsive%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F200%252F300%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522card%2520img%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2520p-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EOur%2520Changing%2520Planet%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522author-name%2522%253Eby%2520Kurt%2520Wagner%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer%2520p-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522p-1%2522%253EREAD%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522p-1%2522%253EBOOKMARK%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2520p-1%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2520p-1%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2520p-1%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 100%; height: 486px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </section>
         </main>
         <aside>
 
         </aside>
     </div>
 </body>
+
 </html>

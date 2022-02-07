@@ -1,0 +1,80 @@
+.card {
+  border: 1px solid var(--secondary-color);
+  width: 20rem;
+  border-radius: 5px;
+}
+
+.card-section {
+  position: relative;
+}
+
+.card-badge {
+  position: absolute;
+  top: 2%;
+  left: 0;
+  background-color: var(--primary-color);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.card-img {
+  height: 40vh;
+}
+
+.author-name {
+  color: var(--secondary-text);
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-footer > a {
+  color: var(--primary-color);
+}
+
+.card-header:hover {
+  background-color: var(--card-hover);
+  cursor: pointer;
+}
+
+.card-footer > a:hover,
+.card-footer > i:hover {
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* card with dismiss */
+.card-dismiss{
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+}
+
+.card-dismiss:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+/* card with text overlay */
+.card-text-overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top-right-radius: 5px;
+}
+
+/* horizontal card */
+.horizontal-card-img{
+    height: 20vh;
+    border-top-left-radius: 5px;
+}
+
+/* card shadow */
+.card-shadow{
+    box-shadow: 0 -1px 40px rgba(0, 0, 0, 0.8);
+}

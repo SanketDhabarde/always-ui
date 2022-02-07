@@ -17,7 +17,7 @@
 @import url("./Components/Input/input.css");
 @import url("./Components//Grid/grid.css");
 
-*{
+body{
     background-color: var(--primary-bg);
     color: var(--primary-text);
 }
