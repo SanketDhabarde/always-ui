@@ -45,3 +45,17 @@
   border-radius: 5px;
   cursor: pointer;
 }
+
+/* card with dismiss */
+.card-dismiss{
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+}
+
+.card-dismiss:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
