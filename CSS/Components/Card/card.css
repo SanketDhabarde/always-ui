@@ -1,0 +1,47 @@
+.card {
+  border: 1px solid var(--secondary-color);
+  width: 20rem;
+  border-radius: 5px;
+}
+
+.card-section {
+  position: relative;
+}
+
+.card-badge {
+  position: absolute;
+  top: 2%;
+  left: 0;
+  background-color: var(--primary-color);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.card-img {
+  height: 40vh;
+}
+
+.author-name {
+  color: var(--secondary-text);
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-footer > a {
+  color: var(--primary-color);
+}
+
+.card-header:hover {
+  background-color: var(--card-hover);
+  cursor: pointer;
+}
+
+.card-footer > a:hover,
+.card-footer > i:hover {
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  cursor: pointer;
+}
