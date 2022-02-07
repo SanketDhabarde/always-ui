@@ -73,3 +73,8 @@
     height: 20vh;
     border-top-left-radius: 5px;
 }
+
+/* card shadow */
+.card-shadow{
+    box-shadow: 0 -1px 40px rgba(0, 0, 0, 0.8);
+}
