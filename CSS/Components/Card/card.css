@@ -59,3 +59,11 @@
     opacity: 0.6;
     cursor: pointer;
 }
+
+/* card with text overlay */
+.card-text-overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top-right-radius: 5px;
+}
