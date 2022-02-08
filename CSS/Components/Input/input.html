@@ -61,14 +61,32 @@
                 <h3 class="my-2">Input textbox</h3>
                 <div class="examples-inline p-1 m-1 center-div">
                     <div class="input-container">
-                        <input type="text" class="input-textbox p-1">
+                        <input type="text" class="input-textbox p-1" placeholder="Enter something...">
                     </div>
                 </div>
             </section>
             <section class="mt-2 p-1 code-snippet">
                 <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%2853%2C67%2C95%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-textbox%2520p-1%2522%253E%2520%250A"
-                    style="width: 100%; height: 206px; border:0; transform: scale(1); overflow:hidden;"
+                    src="https://carbon.now.sh/embed?bg=rgba%2853%2C67%2C95%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-textbox%2520p-1%2522%2520placeholder%253D%2522Enter%2520something...%2522%253E%250A"
+                    style="width: 100%; height: 207px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </section>
+
+            <!-- With error -->
+            <section class="mt-2">
+                <h3 class="my-2">Input textbox with error</h3>
+                <div class="examples-inline p-1 m-1 center-div">
+                    <div class="input-container">
+                        <input type="text" class="input-error p-1" placeholder="Enter something..." required>
+                        <span class="input-err p-1">err</span>
+                    </div>
+                </div>
+            </section>
+            <section class="mt-2 p-1 code-snippet">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2853%2C67%2C95%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-error%2520p-1%2522%2520placeholder%253D%2522Enter%2520something...%2522%2520required%253E%250A%253Cspan%2520class%253D%2522input-err%2520p-1%2522%253Eerr%253C%252Fspan%253E"
+                    style="width: 100%; height: 207px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
             </section>
