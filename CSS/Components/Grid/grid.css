@@ -1,24 +1,36 @@
 .grid-1-col{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; 
 }
 
 .grid-2-col{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr; 
 }
 
 .grid-3-col{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr; 
 }
 
 .grid-4-col{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
 }
 
 .grid-1-3-1-col{
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr; 
+}
+
+.grid-item{
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid var(--secondary-color);
+}
+
+.grid-item-one{
+    width: 20rem;
+    height: 10rem;
+    border: 1px solid var(--secondary-color);
 }
