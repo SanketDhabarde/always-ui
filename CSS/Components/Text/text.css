@@ -1,0 +1,76 @@
+/******** Headings ********/
+h1 {
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+h4 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+h5 {
+  font-size: 0.5rem;
+  line-height: 1rem;
+}
+
+/******** Text ********/
+.text-xl {
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+.text-l {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+.text-m {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-s {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-xs {
+  font-size: 0.5rem;
+  line-height: 1rem;
+}
+
+.text-gray {
+  color: var(--gray-txt);
+}
+
+.text-center {
+  text-align: center;
+}
+
+/******** Font weights ********/
+.font-weight-light {
+  font-weight: 300;
+}
+.font-weight-regular {
+  font-weight: 400;
+}
+.font-weight-semibold {
+  font-weight: 600;
+}
+.font-weight-bold {
+  font-weight: 700;
+}
+.font-weight-black {
+  font-weight: 900;
+}
