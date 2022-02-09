@@ -60,3 +60,25 @@ main {
   color: var(--code-color);
   font-size: 0.9rem;
 }
+
+/* aside navigation */
+.nav{
+  color: var(--nav-color);
+}
+
+.nav:hover{
+  color: var(--primary-color);
+}
+
+main::-webkit-scrollbar {
+  width: 0.3em;
+}
+ 
+main::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+main::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
