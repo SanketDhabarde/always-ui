@@ -1,0 +1,25 @@
+.list-group {
+  width: 20rem;
+  height: auto;
+  border-radius: 5px;
+}
+
+.list-group-item {
+  list-style: none;
+  border: 1px solid var(--secondary-color);
+  padding: 1rem;
+}
+
+.list-group-item:hover {
+  cursor: pointer;
+  background-color: var(--card-hover);
+}
+
+.active {
+  background-color: var(--primary-color);
+}
+
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}

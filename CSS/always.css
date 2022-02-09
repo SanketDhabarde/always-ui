@@ -7,7 +7,6 @@
 @import url("./reset.css");
 @import url("./variable.css");
 @import url("./utility.css");
-@import url('./typography.css');
 @import url("./Components/Alert/alert.css");
 @import url("./Components/Avatar/avatar.css");
 @import url("./Components/Badge/badge.css");
@@ -16,6 +15,8 @@
 @import url("./Components/Image/image.css");
 @import url("./Components/Input/input.css");
 @import url("./Components//Grid/grid.css");
+@import url("./Components/List/list.css");
+@import url("./Components/Text/text.css");
 
 body{
     background-color: var(--primary-bg);
