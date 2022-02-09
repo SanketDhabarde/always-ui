@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../../documentation.css">
 
     <!-- File specific style sheet -->
-    <link rel="stylesheet" href="./alert.css">
+    <link rel="stylesheet" href="./grid.css">
 
     <title>Always | Grid</title>
 </head>
@@ -61,10 +61,59 @@
             </li>
         </aside>
         <main class="p-3">
-            
+            <section>
+                <div class="header">
+                    <h1>Simplified grid</h1>
+                </div>
+            </section>
+            <!-- Headings -->
+            <section class="mt-2" id="examples">
+                <h3 class="my-2">Examples</h3>
+                <div class="p-1">
+                    <p class="py-1">Use <code class="code">.grid-2-col</code> on parent container to adjust 2 child div in 2 columns,</p>
+                    <p class="py-1">Similarly Use <code class="code">.grid-2-col</code>, <code class="code">.grid-3-col</code>, <code class="code">.grid-4-col</code>, <code class="code">.grid-1-3-1-col</code></p>
+                </div>
+                <div class="examples p-1 m-1 center-div">
+                    <div class="grid-2-col">
+                        <div class="grid-item m-1"></div>
+                        <div class="grid-item m-1"></div>
+                    </div>
+                    <div class="grid-3-col">
+                        <div class="grid-item m-1"></div>
+                        <div class="grid-item m-1"></div>
+                        <div class="grid-item m-1"></div>
+                    </div>
+                    <div class="grid-4-col">
+                        <div class="grid-item m-1"></div>
+                        <div class="grid-item m-1"></div>
+                        <div class="grid-item m-1"></div>
+                        <div class="grid-item m-1"></div>
+                    </div>
+                    <div class="grid-1-3-1-col">
+                        <div class="grid-item m-1"></div>
+                        <div class="grid-item m-1"></div>
+                        <div class="grid-item m-1"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="mt-2 p-1 code-snippet">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2853%2C67%2C95%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-2-col%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522grid-3-col%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522grid-4-col%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522grid-1-3-1-col%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 100%; height: 542px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </section>
         </main>
-        <aside>
-
+        <aside class="p-3">
+            <section>
+                <h4 class="py-1">ON THIS PAGE</h4>
+                <hr class="separator">
+                <ul class="list-group">
+                    <li class="list-no-bullet p-1 nav">
+                        <a href="#examples" class="btn-link">Examples</a>
+                    </li>
+                </ul>
+            </section>
         </aside>
     </div>
 </body>
