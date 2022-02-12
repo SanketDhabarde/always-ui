@@ -7,6 +7,7 @@
 @import url("./reset.css");
 @import url("./variable.css");
 @import url("./utility.css");
+@import url("./common.css");
 @import url("./Components/Alert/alert.css");
 @import url("./Components/Avatar/avatar.css");
 @import url("./Components/Badge/badge.css");
@@ -17,21 +18,3 @@
 @import url("./Components//Grid/grid.css");
 @import url("./Components/List/list.css");
 @import url("./Components/Text/text.css");
-
-body{
-    background-color: var(--primary-bg);
-    color: var(--primary-text);
-}
-
-.separator{
-    opacity: 0.6;
-    border: 0 solid var(--secondary-color);
-    border-bottom-width: 1px;
-    width: 100%;
-}
-
-.center-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}

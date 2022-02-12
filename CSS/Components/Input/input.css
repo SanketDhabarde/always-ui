@@ -34,5 +34,5 @@
 }
 
 .input-err{
-    color: var(--danger);
+    color: var(--danger-err);
 }

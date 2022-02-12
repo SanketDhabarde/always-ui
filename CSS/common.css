@@ -1,0 +1,17 @@
+body{
+    background-color: var(--primary-bg);
+    color: var(--primary-text);
+}
+
+.separator{
+    opacity: 0.6;
+    border: 0 solid var(--secondary-color);
+    border-bottom-width: 1px;
+    width: 100%;
+}
+
+.center-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

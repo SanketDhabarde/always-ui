@@ -22,7 +22,7 @@
 
 .avatar-txt {
   background-color: var(--primary-color);
-  color: var(--primary-text);
+  color: var(--btn-primary-text);
 }
 
 span {

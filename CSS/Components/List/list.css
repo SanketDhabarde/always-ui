@@ -17,6 +17,7 @@
 
 .active {
   background-color: var(--primary-color);
+  color: var(--btn-primary-text);
 }
 
 .disabled {

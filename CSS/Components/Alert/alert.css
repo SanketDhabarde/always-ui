@@ -1,5 +1,5 @@
 .alert {
-  width: 40vw;
+  width: 30vw;
   height: 5vh;
   border-radius: 5px;
   padding: 0.5rem;
@@ -28,40 +28,40 @@
 
 .alert-outline-success {
   border: 2px solid var(--success);
-  color: var(--success-text);
+  color: var(--success-outline-text);
 }
 
 .alert-outline-danger {
   border: 2px solid var(--danger);
-  color: var(--danger-text);
+  color: var(--danger-outline-text);
 }
 
 .alert-outline-info {
   border: 2px solid var(--info);
-  color: var(--info-text);
+  color: var(--info-outline-text);
 }
 
 .alert-outline-warning {
   border: 2px solid var(--warning);
-  color: var(--warning-text);
+  color: var(--warning-outline-text);
 }
 
 .alert-success-icon {
-  color: var(--success-text);
+  color: var(--success-outline-text);
   padding: 0 0.5rem;
 }
 
 .alert-danger-icon {
-  color: var(--danger-color);
+  color: var(--danger-outline-color);
   padding: 0 0.5rem;
 }
 
 .alert-info-icon {
-  color: var(--info-text);
+  color: var(--info-outline-text);
   padding: 0 0.5rem;
 }
 
 .alert-warning-icon {
-  color: var(--warning-text);
+  color: var(--warning-outline-text);
   padding: 0 0.5rem;
 }

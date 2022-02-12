@@ -23,6 +23,10 @@
   background-color: var(--secondary-text);
 }
 
+.avatar-txt{
+  color: var(--btn-primary-text);
+}
+
 /* badge on icons */
 
 .badge-icon-wrapper {

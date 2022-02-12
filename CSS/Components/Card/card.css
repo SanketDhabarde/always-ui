@@ -12,6 +12,7 @@
   position: absolute;
   top: 2%;
   left: 0;
+  color: var(--btn-primary-text);
   background-color: var(--primary-color);
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
