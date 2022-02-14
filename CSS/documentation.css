@@ -22,6 +22,10 @@ header {
   font-size: 1.1rem;
 }
 
+.sidebar-item a{
+  display: block;
+}
+
 .sidebar-item:hover {
   background-color: var(--primary-color);
 }
