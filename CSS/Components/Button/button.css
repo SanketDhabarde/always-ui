@@ -84,8 +84,24 @@
   border: 1px solid var(--secondary-color);
 }
 
+.examples-inline {
+  position: relative;
+}
+
+.btn-float {
+  color: var(--btn-primary-text);
+  background-color: var(--primary-color);
+  text-decoration: none;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 10%;
+  right: 2%;
+}
+
 /* button hover */
 
-.btn:hover{
+.btn:hover {
   opacity: 0.8;
 }
