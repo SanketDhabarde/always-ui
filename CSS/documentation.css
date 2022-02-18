@@ -22,7 +22,7 @@ header {
   font-size: 1.1rem;
 }
 
-.sidebar-item a{
+.sidebar-item a {
   display: block;
 }
 
@@ -66,22 +66,22 @@ main {
 }
 
 /* aside navigation */
-.nav{
+.nav {
   color: var(--nav-color);
 }
 
-.nav:hover{
+.nav:hover {
   color: var(--primary-color);
 }
 
 main::-webkit-scrollbar {
   width: 0.3em;
 }
- 
+
 main::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
- 
+
 main::-webkit-scrollbar-thumb {
   background-color: darkgrey;
   outline: 1px solid slategrey;

@@ -1,57 +1,57 @@
-header{
-    position: sticky;
-    top: 0;
-    width: 100%;
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
 }
 
-main{
-    font-family: 'Roboto', sans-serif;
-    height: 73vh;
+main {
+  font-family: "Roboto", sans-serif;
+  height: 73vh;
 }
 
-footer{
-    width: 100%;
-    height: 10vh;
-    display: flex;
-    flex-direction: column;
+footer {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
 }
 
-.content{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
+.content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
-.welcome-header > h2{
-    font-size: 3em;
+.welcome-header > h2 {
+  font-size: 3em;
 }
 
-.welcome-span{
-    color: var(--primary-color);
+.welcome-span {
+  color: var(--primary-color);
 }
 
-.welcome-content{
-    color: var(--secondary-text);
+.welcome-content {
+  color: var(--secondary-text);
 }
 
-.header-brand > a{
-    font-family: 'Marck Script', cursive;
-    font-size: 2.5rem;
-    color: var(--primary-color);
-    font-weight: bold;
+.header-brand > a {
+  font-family: "Marck Script", cursive;
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  font-weight: bold;
 }
 
-.center-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.center-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.footer-content{
-    width: 50%; 
-    text-align: center;
+.footer-content {
+  width: 50%;
+  text-align: center;
 }
 
-i{
-    color: var(--primary-color);
+i {
+  color: var(--primary-color);
 }
