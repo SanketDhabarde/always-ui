@@ -1,0 +1,22 @@
+.ratings {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 0.5rem;
+}
+
+.ratings input {
+  display: none;
+}
+
+.ratings label {
+  cursor: pointer;
+}
+
+.ratings input:checked ~ label {
+  color: var(--primary-color);
+}
+
+.ratings label:hover ~ label,
+.ratings label:hover {
+  color: var(--primary-color);
+}
