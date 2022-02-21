@@ -1,0 +1,31 @@
+header {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid var(--secondary-color);
+  background-color: var(--primary-bg);
+  z-index: 1;
+}
+
+.header-brand > a {
+  font-family: "Marck Script", cursive;
+  font-size: 2rem;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+i {
+  cursor: pointer;
+}
+
+.nav-right {
+  gap: 1.5rem;
+}
+
+.search {
+  width: 30vw;
+}
