@@ -41,10 +41,8 @@ footer {
   font-weight: bold;
 }
 
-.center-div {
+.get-started {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .footer-content {
@@ -54,4 +52,22 @@ footer {
 
 i {
   color: var(--primary-color);
+}
+
+@media screen and (max-width: 37.5em) {
+  main.grid-2-col {
+    grid-template-columns: 1fr;
+  }
+
+  .get-started {
+    flex-direction: column;
+  }
+
+  main {
+    height: auto;
+  }
+
+  footer {
+    height: auto;
+  }
 }
