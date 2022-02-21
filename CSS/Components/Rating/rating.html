@@ -17,10 +17,10 @@
     <link rel="stylesheet" href="../../always.css" />
     <link rel="stylesheet" href="../../documentation.css" />
 
-    <!-- style specif to file -->
-    <link rel="stylesheet" href="./input.css" />
+    <!-- File specific style sheet -->
+    <link rel="stylesheet" href="./rating.css" />
 
-    <title>Always | Input</title>
+    <title>Always | Ratings</title>
   </head>
 
   <body>
@@ -55,8 +55,8 @@
         <li class="list-no-bullet p-1 sidebar-item mb-3 border-s">
           <a href="../Image/image.html" class="btn-link">Image</a>
         </li>
-        <li class="list-no-bullet p-1 sidebar-item mb-3 border-s active">
-          <a href="./input.html" class="btn-link">Input</a>
+        <li class="list-no-bullet p-1 sidebar-item mb-3 border-s">
+          <a href="../Input/input.html" class="btn-link">Input</a>
         </li>
         <li class="list-no-bullet p-1 sidebar-item mb-3 border-s">
           <a href="../Text/text.html" class="btn-link">Text Utilities</a>
@@ -64,8 +64,8 @@
         <li class="list-no-bullet p-1 sidebar-item mb-3 border-s">
           <a href="../List/list.html" class="btn-link">Lists</a>
         </li>
-        <li class="list-no-bullet p-1 sidebar-item mb-3 border-s">
-          <a href="../Rating/rating.html" class="btn-link">Ratings</a>
+        <li class="list-no-bullet p-1 sidebar-item mb-3 border-s active">
+            <a href="../Rating/rating.html" class="btn-link">Ratings</a>
         </li>
         <li class="list-no-bullet p-1 sidebar-item mb-3 border-s">
           <a href="../Grid/grid.html" class="btn-link">Grid</a>
@@ -74,57 +74,34 @@
       <main class="p-3">
         <section>
           <div class="header">
-            <h1>Input</h1>
+            <h1>Ratings</h1>
           </div>
         </section>
-        <section class="mt-2" id="textbox">
-          <h3 class="my-2">Input textbox</h3>
-          <div class="examples-inline p-1 m-1 center-div">
-            <div class="input-container">
-              <input
-                type="text"
-                class="input-textbox p-1"
-                placeholder="Enter something..."
-              />
-            </div>
-          </div>
-        </section>
-        <section class="mt-2 p-1 code-snippet">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%2853%2C67%2C95%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-textbox%2520p-1%2522%2520placeholder%253D%2522Enter%2520something...%2522%253E%250A"
-            style="
-              width: 100%;
-              height: 207px;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-        </section>
+        <!-- Simple Ratings -->
+        <section class="mt-2" id="examples">
+          <h3 class="my-2">Examples</h3>
+          <div class="examples p-1 m-1 center-div">
+            <div class="ratings p-1">
+              <input type="radio" name="rating" id="rating1" />
+              <label for="rating1"><i class="fas fa-star"></i></label>
 
-        <!-- With error -->
-        <section class="mt-2" id="textError">
-          <h3 class="my-2">Input textbox with error</h3>
-          <div class="examples-inline p-1 m-1 center-div">
-            <div class="input-container">
-              <input
-                type="text"
-                class="input-error p-1"
-                placeholder="Enter something..."
-                required
-              />
-              <span class="input-err p-1">err</span>
+              <input type="radio" name="rating" id="rating2" />
+              <label for="rating2"><i class="fas fa-star"></i></label>
+
+              <input type="radio" name="rating" id="rating3" />
+              <label for="rating3"><i class="fas fa-star"></i></label>
+
+              <input type="radio" name="rating" id="rating4" />
+              <label for="rating4"><i class="fas fa-star"></i></label>
             </div>
           </div>
         </section>
         <section class="mt-2 p-1 code-snippet">
           <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%2853%2C67%2C95%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-error%2520p-1%2522%2520placeholder%253D%2522Enter%2520something...%2522%2520required%253E%250A%253Cspan%2520class%253D%2522input-err%2520p-1%2522%253Eerr%253C%252Fspan%253E"
+            src="https://carbon.now.sh/embed?bg=rgba%2853%2C67%2C95%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522ratings%2520p-1%2522%253E%250A%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520id%253D%2522rating1%2522%2520%252F%253E%250A%2520%2520%253Clabel%2520for%253D%2522rating1%2522%253E%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Flabel%253E%250A%250A%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520id%253D%2522rating2%2522%2520%252F%253E%250A%2520%2520%253Clabel%2520for%253D%2522rating2%2522%253E%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Flabel%253E%250A%250A%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520id%253D%2522rating3%2522%2520%252F%253E%250A%2520%2520%253Clabel%2520for%253D%2522rating3%2522%253E%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Flabel%253E%250A%250A%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520id%253D%2522rating4%2522%2520%252F%253E%250A%2520%2520%253Clabel%2520for%253D%2522rating4%2522%253E%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Flabel%253E%250A%253C%252Fdiv%253E"
             style="
               width: 100%;
-              height: 207px;
+              height: 412px;
               border: 0;
               transform: scale(1);
               overflow: hidden;
@@ -140,10 +117,7 @@
           <hr class="separator" />
           <ul class="list-group">
             <li class="list-no-bullet p-1 nav">
-              <a href="#textbox" class="btn-link">Textbox</a>
-            </li>
-            <li class="list-no-bullet p-1 nav">
-              <a href="#textError" class="btn-link">Textbox with error</a>
+              <a href="#examples" class="btn-link">Example</a>
             </li>
           </ul>
         </section>
