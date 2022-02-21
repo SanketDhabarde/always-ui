@@ -6,7 +6,6 @@ header {
   align-items: center;
   position: sticky;
   top: 0;
-  border-bottom: 1px solid var(--secondary-color);
   background-color: var(--primary-bg);
   z-index: 1;
 }
