@@ -13,16 +13,18 @@ Add this link tag in your html `<head></head>` tag. To get started with Always U
 ```
 
 ## Components
-- Avatar
-- Alert
-- Badge
-- Button
-- Card
-- Image
-- Input
-- Text utilities
-- Lists
-- Grid
+- [Avatar](https://always-ui.netlify.app/css/components/avatar/avatar)
+- [Alert](https://always-ui.netlify.app/css/components/alert/alert)
+- [Badge](https://always-ui.netlify.app/css/components/badge/badge)
+- [Button](https://always-ui.netlify.app/css/components/button/button)
+- [Card](https://always-ui.netlify.app/css/components/card/card)
+- [Image](https://always-ui.netlify.app/css/components/image/image)
+- [Input](https://always-ui.netlify.app/css/components/input/input)
+- [Text utilities](https://always-ui.netlify.app/css/components/text/text)
+- [Lists](https://always-ui.netlify.app/css/components/list/list)
+- [Ratings](https://always-ui.netlify.app/css/components/rating/rating)
+- [Grid](https://always-ui.netlify.app/css/components/grid/grid)
+- [Navigation](https://always-ui.netlify.app/css/components/navigation/navigation)
 
 
 
