@@ -18,9 +18,9 @@
     <link rel="stylesheet" href="../../documentation.css" />
 
     <!-- File specific style sheet -->
-    <link rel="stylesheet" href="./list.css" />
+    <link rel="stylesheet" href="./toast.css" />
 
-    <title>Always | Lists</title>
+    <title>Always | Toasts</title>
   </head>
 
   <body>
@@ -61,7 +61,7 @@
         <li class="list-no-bullet p-1 sidebar-item mb-3 border-s">
           <a href="../Text/text.html" class="btn-link">Text Utilities</a>
         </li>
-        <li class="list-no-bullet p-1 sidebar-item mb-3 border-s active">
+        <li class="list-no-bullet p-1 sidebar-item mb-3 border-s">
           <a href="../List/list.html" class="btn-link">Lists</a>
         </li>
         <li class="list-no-bullet p-1 sidebar-item mb-3 border-s">
@@ -78,43 +78,36 @@
         <li class="list-no-bullet p-1 sidebar-item mb-3 border-s">
           <a href="../Modal/modal.html" class="btn-link">Modal</a>
         </li>
-        <li class="list-no-bullet p-1 sidebar-item mb-3 border-s">
+        <li class="list-no-bullet p-1 sidebar-item mb-3 border-s active">
           <a href="../Toast/toast.html" class="btn-link">Toasts</a>
         </li>
       </aside>
       <main class="p-3">
         <section>
           <div class="header">
-            <h1>Lists</h1>
+            <h1>Toast</h1>
           </div>
         </section>
-        <!-- Normal lists -->
+        <!-- Normal Modal -->
         <section class="mt-2" id="normal">
-          <h3 class="my-2">Normal lists</h3>
+          <h3 class="my-2">Normal Toasts</h3>
           <div class="examples p-1 m-1 center-div">
-            <ul class="p-1">
-              <li>Cras justo odio</li>
-              <li>Dapibus ac facilisis in</li>
-              <li>Morbi leo risus</li>
-              <li>Porta ac consectetur ac</li>
-              <li>Vestibulum at eros</li>
-            </ul>
-            <hr class="separator" />
-            <ol class="p-1">
-              <li>Cras justo odio</li>
-              <li>Dapibus ac facilisis in</li>
-              <li>Morbi leo risus</li>
-              <li>Porta ac consectetur ac</li>
-              <li>Vestibulum at eros</li>
-            </ol>
+            <div class="toast-static p-1">
+              <div class="toast-message px-1">
+                <p>Can't send photo. Retry in 5 seconds</p>
+                <span class="toast-close">
+                  <i class="fas fa-times"></i>
+                </span>
+              </div>
+            </div>
           </div>
         </section>
         <section class="mt-2 p-1 code-snippet">
           <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%2853%2C67%2C95%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%253E%250A%2520%2520%2520%2520%253Cli%253ECras%2520justo%2520odio%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EDapibus%2520ac%2520facilisis%2520in%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EMorbi%2520leo%2520risus%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EPorta%2520ac%2520consectetur%2520ac%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EVestibulum%2520at%2520eros%253C%252Fli%253E%250A%253C%252Ful%253E%250A%250A%253Col%253E%250A%2520%2520%2520%2520%253Cli%253ECras%2520justo%2520odio%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EDapibus%2520ac%2520facilisis%2520in%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EMorbi%2520leo%2520risus%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EPorta%2520ac%2520consectetur%2520ac%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EVestibulum%2520at%2520eros%253C%252Fli%253E%250A%253C%252Fol%253E"
+            src="https://carbon.now.sh/embed?bg=rgba%2853%2C67%2C95%2C1%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast%2520p-1%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522toast-message%2520px-1%2522%253E%250A%2520%2520%2520%2520%253Cp%253ECan%27t%2520send%2520photo.%2520Retry%2520in%25205%2520seconds%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cspan%2520id%253D%2522toast-close%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
             style="
               width: 100%;
-              height: 449px;
+              height: 319px;
               border: 0;
               transform: scale(1);
               overflow: hidden;
@@ -123,39 +116,27 @@
           >
           </iframe>
         </section>
-
-        <!-- stacked list -->
-        <section class="mt-2" id="stacked">
-          <h3 class="my-2">Stacked lists</h3>
-          <div class="p-1">
-            <p class="py-1">
-              Use <code class="code">.list-group-item</code> for list,
-            </p>
-            <p class="py-1">
-              Use <code class="code">.active</code> on
-              <code class="code">.list-group-item</code> to represent active and
-            </p>
-            <p class="py-1">
-              Use <code class="code">.disabled</code> on
-              <code class="code">.list-group-item</code> to appear as disabled.
-            </p>
-          </div>
+        <!-- toast demo -->
+        <section class="mt-2" id="demo">
+          <h3 class="my-2">Toast demo</h3>
           <div class="examples p-1 m-1 center-div">
-            <ul class="list-group">
-              <li class="list-group-item active">Cras justo odio</li>
-              <li class="list-group-item">Dapibus ac facilisis in</li>
-              <li class="list-group-item">Morbi leo risus</li>
-              <li class="list-group-item">Porta ac consectetur ac</li>
-              <li class="list-group-item disabled">Vestibulum at eros</li>
-            </ul>
+            <button class="btn btn-primary" id="open-toast">Live toast</button>
+            <div class="toast toast-live display-none p-1">
+              <div class="toast-message px-1">
+                <p>Can't send photo. Retry in 5 seconds</p>
+                <span id="toast-close">
+                  <i class="fas fa-times"></i>
+                </span>
+              </div>
+            </div>
           </div>
         </section>
         <section class="mt-2 p-1 code-snippet">
           <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%2853%2C67%2C95%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list-group%2522%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-group-item%2520active%2522%253ECras%2520justo%2520odio%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-group-item%2522%253EDapibus%2520ac%2520facilisis%2520in%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-group-item%2522%253EMorbi%2520leo%2520risus%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-group-item%2522%253EPorta%2520ac%2520consectetur%2520ac%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-group-item%2520disabled%2522%253EVestibulum%2520at%2520eros%253C%252Fli%253E%250A%253C%252Ful%253E"
+            src="https://carbon.now.sh/embed?bg=rgba%2853%2C67%2C95%2C1%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252F%2520toast%2520js%250Aconst%2520toast%2520%253D%2520document.querySelector%28%2522.toast-live%2522%29%253B%250Aconst%2520closeToast%2520%253D%2520document.querySelector%28%2522%2523toast-close%2522%29%253B%250Aconst%2520openToast%2520%253D%2520document.querySelector%28%2522%2523open-toast%2522%29%253B%250A%250AopenToast.addEventListener%28%2522click%2522%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520toast.classList.remove%28%2522display-none%2522%29%253B%250A%257D%29%253B%250A%250AcloseToast.addEventListener%28%2522click%2522%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520toast.classList.add%28%2522display-none%2522%29%253B%250A%257D%29%253B"
             style="
               width: 100%;
-              height: 300px;
+              height: 394px;
               border: 0;
               transform: scale(1);
               overflow: hidden;
@@ -171,14 +152,15 @@
           <hr class="separator" />
           <ul class="list-group">
             <li class="list-no-bullet p-1 nav">
-              <a href="#normal" class="btn-link">Normal list</a>
+              <a href="#normal" class="btn-link">Normal Modal</a>
             </li>
             <li class="list-no-bullet p-1 nav">
-              <a href="#stacked" class="btn-link">Stacked list</a>
+              <a href="#demo" class="btn-link">Toast Demo</a>
             </li>
           </ul>
         </section>
       </aside>
     </div>
   </body>
+  <script src="./toast.js"></script>
 </html>
