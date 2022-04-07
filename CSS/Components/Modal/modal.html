@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Sanket Dhabarde" />
+
+    <!-- fevicon -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../../../Assets/Hallows_Sign.png"
+    />
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="../../always.css" />
+    <link rel="stylesheet" href="../../documentation.css" />
+
+    <!-- File specific style sheet -->
+    <link rel="stylesheet" href="./modal.css" />
+
+    <title>Always | Modal</title>
+  </head>
+
+  <body>
+    <header class="p-3">
+      <div class="header-brand">
+        <a href="../../../index.html" class="btn-link">Always</a>
+      </div>
+    </header>
+    <div class="container grid-1-3-1-col pt-1">
+      <aside class="sidebar p-5">
+        <li class="list-no-bullet p-1 sidebar-item mb-3 border-s">
+          <a href="../../../Pages/documentation.html" class="btn-link"
+            >Get Started</a
+          >
+        </li>
+        <hr class="separator" />
+        <li class="list-no-bullet p-1 sidebar-item mb-3 border-s">
+          <a href="../Avatar/avatar.html" class="btn-link">Avatar</a>
+        </li>
+        <li class="list-no-bullet p-1 sidebar-item mb-3 border-s">
+          <a href="./alert.html" class="btn-link">Alert</a>
+        </li>
+        <li class="list-no-bullet p-1 sidebar-item mb-3 border-s">
+          <a href="../Badge/badge.html" class="btn-link">Badge</a>
+        </li>
+        <li class="list-no-bullet p-1 sidebar-item mb-3 border-s">
+          <a href="../Button/button.html" class="btn-link">Button</a>
+        </li>
+        <li class="list-no-bullet p-1 sidebar-item mb-3 border-s">
+          <a href="../Card/card.html" class="btn-link">Card</a>
+        </li>
+        <li class="list-no-bullet p-1 sidebar-item mb-3 border-s">
+          <a href="../Image/image.html" class="btn-link">Image</a>
+        </li>
+        <li class="list-no-bullet p-1 sidebar-item mb-3 border-s">
+          <a href="../Input/input.html" class="btn-link">Input</a>
+        </li>
+        <li class="list-no-bullet p-1 sidebar-item mb-3 border-s">
+          <a href="../Text/text.html" class="btn-link">Text Utilities</a>
+        </li>
+        <li class="list-no-bullet p-1 sidebar-item mb-3 border-s">
+          <a href="../List/list.html" class="btn-link">Lists</a>
+        </li>
+        <li class="list-no-bullet p-1 sidebar-item mb-3 border-s">
+          <a href="../Rating/rating.html" class="btn-link">Ratings</a>
+        </li>
+        <li class="list-no-bullet p-1 sidebar-item mb-3 border-s">
+          <a href="../Grid/grid.html" class="btn-link">Grid</a>
+        </li>
+        <li class="list-no-bullet p-1 sidebar-item mb-3 border-s">
+          <a href="../Navigation/navigation.html" class="btn-link"
+            >Navigation</a
+          >
+        </li>
+        <li class="list-no-bullet p-1 sidebar-item mb-3 border-s active">
+          <a href="../Modal/modal.html" class="btn-link">Modal</a>
+        </li>
+      </aside>
+      <main class="p-3">
+        <section>
+          <div class="header">
+            <h1>Modal</h1>
+          </div>
+        </section>
+        <!-- Normal Modal -->
+        <section class="mt-2" id="normal">
+          <h3 class="my-2">Normal Modal</h3>
+          <div class="examples examples-modal p-1 m-1 center-div">
+            <div class="card p-2">
+              <div class="modal-header">
+                <h2>Modal</h2>
+                <span class="modal-close">
+                  <i class="fas fa-times"></i>
+                </span>
+              </div>
+              <div class="modal-info py-1">
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Neque ea optio rem ut dolorum minima incidunt recusandae quod
+                  eum consequuntur enim, laudantium aut provident tempora vitae
+                  saepe, beatae laboriosam blanditiis.
+                </p>
+              </div>
+              <div class="modal-footer py-1">
+                <button class="btn btn-secondary btn-modal-close">close</button>
+                <button class="btn btn-primary">save</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="mt-2 p-1 code-snippet">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%2853%2C67%2C95%2C1%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal-backdrop%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520modal%2520p-2%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253EModal%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520id%253D%2522modal-close%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-info%2520py-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Lorem%252C%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%250A%2520%2520%2520%2520%2520%2520%2520%2520Neque%2520ea%2520optio%2520rem%2520ut%2520dolorum%2520minima%2520incidunt%2520recusandae%250A%2520%2520%2520%2520%2520%2520%2520%2520quod%2520eum%2520consequuntur%2520enim%252C%2520laudantium%2520aut%2520provident%2520tempora%250A%2520%2520%2520%2520%2520%2520%2520%2520vitae%2520saepe%252C%2520beatae%2520laboriosam%2520blanditiis.%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-footer%2520py-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%2520id%253D%2522btn-modal-close%2522%253Eclose%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253Esave%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="
+              width: 100%;
+              height: 579px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </section>
+        <!-- modal demo -->
+        <section class="mt-2" id="demo">
+          <h3 class="my-2">Modal demo</h3>
+          <div class="examples p-1 m-1 center-div">
+            <button class="btn btn-primary open-modal">Open modal</button>
+            <div class="modal-backdrop display-none">
+              <div class="card modal p-2">
+                <div class="modal-header">
+                  <h2>Modal</h2>
+                  <span id="modal-close">
+                    <i class="fas fa-times"></i>
+                  </span>
+                </div>
+                <div class="modal-info py-1">
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Neque ea optio rem ut dolorum minima incidunt recusandae
+                    quod eum consequuntur enim, laudantium aut provident tempora
+                    vitae saepe, beatae laboriosam blanditiis.
+                  </p>
+                </div>
+                <div class="modal-footer py-1">
+                  <button class="btn btn-secondary" id="btn-modal-close">
+                    close
+                  </button>
+                  <button class="btn btn-primary">save</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="mt-2 p-1 code-snippet">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%2853%2C67%2C95%2C1%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=const%2520modalClose%2520%253D%2520document.querySelector%28%2522%2523modal-close%2522%29%253B%250Aconst%2520backdrop%2520%253D%2520document.querySelector%28%2522.modal-backdrop%2522%29%253B%250Aconst%2520modal%2520%253D%2520document.querySelector%28%2522.modal%2522%29%253B%250Aconst%2520btnClose%2520%253D%2520document.querySelector%28%2522%2523btn-modal-close%2522%29%253B%250Aconst%2520openModal%2520%253D%2520document.querySelector%28%2522.open-modal%2522%29%253B%250A%250Aconst%2520eventHandler%2520%253D%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520backdrop.classList.add%28%2522display-none%2522%29%253B%250A%257D%253B%250A%250AmodalClose.addEventListener%28%2522click%2522%252C%2520eventHandler%29%253B%250A%250Abackdrop.addEventListener%28%2522click%2522%252C%2520eventHandler%29%253B%250A%250AbtnClose.addEventListener%28%2522click%2522%252C%2520eventHandler%29%253B%250A%250AopenModal.addEventListener%28%2522click%2522%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520backdrop.classList.remove%28%2522display-none%2522%29%253B%250A%257D%29%253B%250A%250Amodal.addEventListener%28%2522click%2522%252C%2520%28e%29%2520%253D%253E%2520e.stopPropagation%28%29%29%253B"
+            style="
+              width: 100%;
+              height: 561px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </section>
+      </main>
+      <aside class="p-3">
+        <section>
+          <h4 class="py-1">ON THIS PAGE</h4>
+          <hr class="separator" />
+          <ul class="list-group">
+            <li class="list-no-bullet p-1 nav">
+              <a href="#normal" class="btn-link">Normal Modal</a>
+            </li>
+            <li class="list-no-bullet p-1 nav">
+              <a href="#demo" class="btn-link">Modal Demo</a>
+            </li>
+          </ul>
+        </section>
+      </aside>
+    </div>
+  </body>
+  <script src="../../always.js"></script>
+</html>
