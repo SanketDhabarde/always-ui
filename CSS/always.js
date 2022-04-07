@@ -20,3 +20,4 @@ openModal.addEventListener("click", () => {
 });
 
 modal.addEventListener("click", (e) => e.stopPropagation());
+
