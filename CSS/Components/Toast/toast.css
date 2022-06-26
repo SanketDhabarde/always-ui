@@ -1,0 +1,25 @@
+.toast {
+  border: 1px solid var(--secondary-color);
+  width: 20rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 -1px 40px rgba(0, 0, 0, 0.8);
+  background-color: var(--primary-bg);
+  position: absolute;
+  right: 6%;
+  bottom: 6%;
+  z-index: 1;
+}
+
+.toast-static {
+  border: 1px solid var(--secondary-color);
+  background-color: var(--primary-bg);
+  width: 20rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 -1px 40px rgba(0, 0, 0, 0.8);
+}
+
+.toast-message {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

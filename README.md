@@ -25,6 +25,8 @@ Add this link tag in your html `<head></head>` tag. To get started with Always U
 - [Ratings](https://always-ui.netlify.app/css/components/rating/rating)
 - [Grid](https://always-ui.netlify.app/css/components/grid/grid)
 - [Navigation](https://always-ui.netlify.app/css/components/navigation/navigation)
+- [Modal](https://always-ui.netlify.app/css/components/modal/modal)
+- [Toast](https://always-ui.netlify.app/css/components/toast/toast)
 
 
 
