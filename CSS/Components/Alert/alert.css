@@ -1,6 +1,5 @@
 .alert {
-  width: 30vw;
-  height: 5vh;
+  width: 20rem;
   border-radius: 5px;
   padding: 0.5rem;
   margin-bottom: 0.5rem;
@@ -64,4 +63,10 @@
 .alert-warning-icon {
   color: var(--warning-outline-text);
   padding: 0 0.5rem;
+}
+
+@media screen and (max-width: 37.5em) {
+  .alert {
+    width: 15rem;
+  }
 }
