@@ -24,12 +24,20 @@
   </head>
   <body>
     <header class="p-3">
-      <div class="header-brand">
-        <a href="../../../index.html" class="btn-link">Always</a>
+      <div class="header">
+        <div class="menu">
+          <i class="fas fa-bars"></i>
+        </div>
+        <div class="header-brand">
+          <a href="../../../index.html" class="btn-link">Always</a>
+        </div>
       </div>
     </header>
     <div class="container grid-1-3-1-col pt-1">
-      <aside class="sidebar p-5">
+      <aside class="sidebar display-none-sidebar p-5">
+        <div class="close-sidebar mb-3">
+          <i class="fas fa-times"></i>
+        </div>
         <li class="list-no-bullet p-1 sidebar-item mb-3 border-s">
           <a href="../../../Pages/documentation.html" class="btn-link"
             >Get Started</a
@@ -102,7 +110,7 @@
           <iframe
             src="https://carbon.now.sh/embed?bg=rgba%2853%2C67%2C95%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-success%2522%253ESuccess%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-danger%2522%253EDanger%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-warning%2522%253EWarning%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-info%2522%253EInfo%253C%252Fbutton%253E%250A"
             style="
-              width: 571px;
+              width: 100%;
               height: 400px;
               border: 0;
               transform: scale(1);
@@ -128,7 +136,7 @@
           <iframe
             src="https://carbon.now.sh/embed?bg=rgba%2853%2C67%2C95%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-outline-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-success%2522%253ESuccess%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-danger%2522%253EDanger%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-warning%2522%253EWarning%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-info%2522%253EInfo%253C%252Fbutton%253E%250A"
             style="
-              width: 639px;
+              width: 100%;
               height: 400px;
               border: 0;
               transform: scale(1);
@@ -166,7 +174,7 @@
           </iframe>
         </section>
       </main>
-      <aside class="p-3">
+      <aside class="p-3 page-navigation">
         <section>
           <h4 class="py-1">ON THIS PAGE</h4>
           <hr class="separator" />
@@ -184,5 +192,6 @@
         </section>
       </aside>
     </div>
+    <script src="../../../Pages/documentation.js"></script>
   </body>
 </html>

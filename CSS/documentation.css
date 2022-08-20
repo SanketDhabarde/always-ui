@@ -5,6 +5,16 @@ header {
   width: 100%;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.menu {
+  display: none;
+}
+
 .header-brand > a {
   font-family: "Marck Script", cursive;
   font-size: 2.5rem;
@@ -42,7 +52,7 @@ main {
 
 .examples {
   border: 1px solid var(--secondary-color);
-  width: 700px;
+  width: 43.75rem;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -50,14 +60,14 @@ main {
 
 .examples-inline {
   border: 1px solid var(--secondary-color);
-  width: 700px;
+  width: 43.75rem;
   height: auto;
   display: flex;
   flex-wrap: wrap;
 }
 
 .code-snippet {
-  width: 700px;
+  width: 43.75rem;
 }
 
 .code {
@@ -85,4 +95,58 @@ main::-webkit-scrollbar-track {
 main::-webkit-scrollbar-thumb {
   background-color: darkgrey;
   outline: 1px solid slategrey;
+}
+
+.close-sidebar {
+  display: none;
+}
+
+@media screen and (max-width: 62.5em) {
+  .page-navigation {
+    display: none;
+  }
+
+  .display-none-sidebar {
+    display: none;
+  }
+
+  .grid-1-3-1-col {
+    grid-template-columns: 1fr;
+  }
+
+  .code-snippet,
+  .examples-inline,
+  .examples {
+    width: 100%;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .menu > i {
+    font-size: 1.3rem;
+  }
+
+  .close-sidebar {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20rem;
+    height: 100vh;
+    z-index: 2;
+    background-color: #1a202ce6;
+  }
+}
+
+@media screen and (max-width: 37.5em) {
+  .sidebar {
+    width: 60%;
+  }
 }

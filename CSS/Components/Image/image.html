@@ -25,12 +25,20 @@
 
   <body>
     <header class="p-3">
-      <div class="header-brand">
-        <a href="../../../index.html" class="btn-link">Always</a>
+      <div class="header">
+        <div class="menu">
+          <i class="fas fa-bars"></i>
+        </div>
+        <div class="header-brand">
+          <a href="../../../index.html" class="btn-link">Always</a>
+        </div>
       </div>
     </header>
     <div class="container grid-1-3-1-col pt-1">
-      <aside class="sidebar p-5">
+      <aside class="sidebar display-none-sidebar p-5">
+        <div class="close-sidebar mb-3">
+          <i class="fas fa-times"></i>
+        </div>
         <li class="list-no-bullet p-1 sidebar-item mb-3 border-s">
           <a href="../../../Pages/documentation.html" class="btn-link"
             >Get Started</a
@@ -143,7 +151,7 @@
           </iframe>
         </section>
       </main>
-      <aside class="p-3">
+      <aside class="p-3 page-navigation">
         <section>
           <h4 class="py-1">ON THIS PAGE</h4>
           <hr class="separator" />
@@ -158,5 +166,6 @@
         </section>
       </aside>
     </div>
+    <script src="../../../Pages/documentation.js"></script>
   </body>
 </html>
