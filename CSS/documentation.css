@@ -5,6 +5,16 @@ header {
   width: 100%;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.menu {
+  display: none;
+}
+
 .header-brand > a {
   font-family: "Marck Script", cursive;
   font-size: 2.5rem;
@@ -87,9 +97,16 @@ main::-webkit-scrollbar-thumb {
   outline: 1px solid slategrey;
 }
 
+.close-sidebar {
+  display: none;
+}
+
 @media screen and (max-width: 62.5em) {
-  .page-navigation,
-  .sidebar {
+  .page-navigation {
+    display: none;
+  }
+
+  .display-none-sidebar {
     display: none;
   }
 
@@ -101,5 +118,35 @@ main::-webkit-scrollbar-thumb {
   .examples-inline,
   .examples {
     width: 100%;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .menu > i {
+    font-size: 1.3rem;
+  }
+
+  .close-sidebar {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20rem;
+    height: 100vh;
+    z-index: 2;
+    background-color: #1a202ce6;
+  }
+}
+
+@media screen and (max-width: 37.5em) {
+  .sidebar {
+    width: 60%;
   }
 }

@@ -5,7 +5,7 @@
   width: 100%;
   height: 100%;
   background-color: var(--modal-backdrop);
-  z-index: 1;
+  z-index: 2;
 }
 
 .display-none {
